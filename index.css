@@ -1,0 +1,179 @@
+/* Global css */
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/* Header section */
+
+header{
+    background-color: rgb(27, 159, 195);
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 5rem;
+}
+   /* header div  */
+  .heading{ 
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 40px;
+    align-items: center;
+} 
+
+.main-menu{
+    float: right;
+    margin-right: 30px;
+
+    }
+.main-menu ul li{
+display: inline;
+margin-right: 10px;
+justify-content: center;
+}
+/* first section */
+.first-section{
+    text-align: center;
+}
+
+ .global-btn{
+height: 30px;
+width: 100px;
+background-color: black;
+color: white;
+border-radius: 7px;
+
+}
+.first-section{
+    background-image: url(pic.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover ;
+    padding: 10rem 0;
+    text-align: center;
+   
+}
+.first-section h2{
+    font-size:5rem;
+    text-align: center;
+    
+
+}
+.first-section p{
+    font-size: 3rem;
+    text-align: center;
+
+}
+.global-section{
+    padding: 5rem 0;
+    
+    }
+    .global-heading{
+    font-size: 45px;
+    text-align: center;
+    }
+    .global-head-p{
+    text-align: center;
+    color: rgb(80, 58, 58);;
+    }
+    /* About us section */
+    .about-main-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        
+    }
+    
+    .about-sub-div2{
+        width: 500px;
+    }
+    .about-sub-div2 h2{
+        font-size: 33px;
+    }
+    .about-sub-div2 p{
+        color: rgb(80, 58, 58);
+        margin: 20px 0;
+    }
+    /* service section */
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+.grid-single-item{
+    padding: 3rem;
+    text-align: center;
+
+}
+.grid-single-item .fa-icon-size{
+    font-size: 4rem;
+}
+.grid-single-item p{
+    color:rgb(80, 58, 58);
+}
+/* Work section */
+.grid-single-item .grid-single-image{
+    width: 200px;
+}
+.work-item{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+/* Testimonial section */
+/* .single-item-color{
+    color: black !important;
+    margin-top: 4px;
+} */
+/* contact section */
+/* .global-section .contact-me{
+    font-size: 40px;
+    text-align: center;
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+form input{
+    width: 450px;
+    height: 30px;
+}
+.submit-btn{
+    width: 150px;
+    height: 35px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 15px;
+    
+}
+.submit-btn:hover{
+    background-color: gray;
+}
+textarea{
+    width: 450px;
+} */
+
+.image img{
+    width: 180px;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 30%;
+}
+/* Footer Section */
+footer{
+    background-color: rgb(27, 159, 195);
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+footer p{
+    padding-top: 40px;
+}
